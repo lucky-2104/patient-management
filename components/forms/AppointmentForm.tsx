@@ -66,7 +66,7 @@ export const AppointmentForm = (
               if (appointment)
               {
                   form.reset();
-                  router.push(`/patients/${userId}/new-appointments/success?appointmentId=${appointment.$id}`);
+                  router.push(`/patients/${userId}/new-appointment/success?appointmentId=${appointment.$id}`);
                   }
           }
         
