@@ -62,11 +62,6 @@ export const registerPatient = async ({
   ...patient
 }: RegisterUserParams) => {
   try {
-    console.log("Registering patient:", patient);
-    console.log("Endpoint:", ENDPOINT);
-    console.log("Bucket ID:", BUCKET_ID);
-    console.log("Database ID:", DATABASE_ID);
-    console.log("Patient Collection ID:", PATIENT_COLLECTION_ID);
 
     // Upload file ->  // https://appwrite.io/docs/references/cloud/client-web/storage#createFile
     let file;
